@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google</title>
+        
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <nav>
+            <div class="navlinks">
+                <a href=""><div>Advanced</div></a>
+                <a href=""><div>Images</div></a>
+            </div>
+            <div class="navother">
+                <div><img src="img/dots3.png" alt="menu" id="menu"></div>
+                <div><img src="img/Killua.svg" alt="profile" id="pfp"></div>
+            </div>
+        </nav>
+        <div class="main">
+            <img class="glogo" src="img/googlelogo.png" alt="google logo">
+            <form action="https://google.com/search">
+                <input autocomplete="off" autofocus type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>
