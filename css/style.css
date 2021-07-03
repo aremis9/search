@@ -269,3 +269,14 @@ footer {
 .searchsubmit:hover {
     cursor: pointer;
 }
+
+/* Google Advanced Search */
+
+.glogo-adv {
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    width: 74px;
+    height: 24px;
+
+}
