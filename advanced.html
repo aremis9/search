@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Google Advanced Search</title>
-        
+        <link rel="icon" href="/img/google.png" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -18,6 +18,76 @@
             </div>
         </nav>
             
+        <div class="as-title">
+            <label style="margin-left:10px">Advanced Search</label>
+        </div>
+        <div class="title-line"></div>
+
+        <div class="main-as">
+            <form action="https://google.com/search" class="container">
+                <div>
+                    <span>Find pages with...</span>
+                </div>
+                <div></div>
+                <div class="grid31">
+                    To do this in the search box.
+                </div>
+                <div class="label">
+                    all these words:
+                </div>
+                <div class="textinput">
+                    <input type="text" name="as_q" autofocus>
+                </div>
+                <div class="desc">
+                    Type the important words: <span>tri-colour rat terrier</span>
+                </div>
+                <div class="label">
+                    this exact word or phrase:
+                </div>
+                <div class="textinput">
+                    <input type="text" name="as_epq">
+                </div>
+                <div class="desc">
+                    Put exact words in quotes: <span>"rat terrier"</span>
+                </div>
+                <div class="label">
+                    any of these words:
+                </div>
+                <div class="textinput">
+                    <input type="text" name="as_oq">
+                </div>
+                <div class="desc">
+                    Type OR between all the words you want: <span>miniature OR standard</span>
+                </div>
+                <div class="label">
+                    none of these words:
+                </div>
+                <div class="textinput">
+                    <input type="text" name="as_eq">
+                </div>
+                <div class="desc desc2">
+                    Put a minus sign just before words that you don't want:
+                    <div>-rodent, -"Jack Russell"</div>
+                </div>
+                <div class="label">
+                    numbers ranging from:
+                </div>
+                <div class="textinput">
+                    <span>
+                        <input type="text" class="numrange" name="as_nlo">
+                        <span class="numrangeto">to</span>
+                        <input type="text" class="numrange" name="as_nhi">
+                    </span>
+                </div>
+                <div class="desc desc2">
+                    Put two full stops between the numbers and add a unit of measurement:
+                    <div>10..35 kg, £300..£500, 2010..2011 </div>
+                </div>
+                <div></div>
+                <input type="submit" class="assubmit" value="Advanced Search">
+            </form>
+        </div>
+
         <footer>
             <div class="country">
                 Philippines
